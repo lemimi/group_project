@@ -1,0 +1,13 @@
+img{
+  display: flex;
+  margin:0 auto;
+  padding:20x;
+  border-radius: 130px;
+}
+
+h1, h2 {
+  text-align: center;
+}
+h1{
+  font-size: 5em;
+}
