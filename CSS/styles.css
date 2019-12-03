@@ -11,3 +11,26 @@ h1, h2 {
 h1{
   font-size: 5em;
 }
+
+class="container" {
+  transition: 0.6s ease;
+}
+.fade {transition: 0.6s ease;
+  opacity: 1;
+}
+.fade:hover {background-color: #DEDCCB; opacity: 5;}
+.fade:not(.show) {
+    opacity: 1;
+}
+div.contrast{
+  background-color: rgb(0,0,0);
+  color: rgb(255,255,255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+li {
+    margin: 0 20px 0 0;
+    transition: 0.6s ease;
+}
