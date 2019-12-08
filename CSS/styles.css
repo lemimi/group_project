@@ -52,13 +52,12 @@ div.contrast{
   align-items: center;
   flex-direction: column;
   margin-top: 0;
+  width: 100px;
 }
 li {
     margin: 0 20px 0 0;
     transition: 0.6s ease;
 }
-class="contrast" {
-  style="width: 100;"
 
 div.christmasDay{
   position: relative;
