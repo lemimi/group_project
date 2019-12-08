@@ -2,7 +2,11 @@
   display: flex;
   margin:0 auto;
   padding:20x;
-  border-radius: 130px;
+}
+
+body {
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 h1, h2 {
@@ -28,6 +32,7 @@ div.carousel-container {
 
 div.padded-h5 {
   padding-left: 13.5%;
+  padding-right: 13.5%;
 }
 class="container" {
   transition: 0.6s ease;
@@ -46,6 +51,7 @@ div.contrast{
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-top: 0;
 }
 li {
     margin: 0 20px 0 0;
@@ -53,4 +59,22 @@ li {
 }
 class="contrast" {
   style="width: 100;"
+
+div.christmasDay{
+  position: relative;
+}
+img.christmasHat{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: -12px;
+    left: -15px;
+}
+
+.decemberCalendar td{
+  cursor: pointer;
+}
+
+.mainContent{
+  margin-top: 50px;
 }
