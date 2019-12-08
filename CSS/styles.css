@@ -4,7 +4,7 @@
   padding:20x;
 }
 
-body {
+#index {
   max-width: 800px;
   margin: 0 auto;
 }
@@ -22,8 +22,8 @@ h5{
 div.intro {
   text-align: left;
 }
-div.carousel-container {
-  display: inline-block;
+#carousel-container {
+  display: block;
 }
 
 .carousel-height{
