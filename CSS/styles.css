@@ -22,8 +22,8 @@ h5{
 div.intro {
   text-align: left;
 }
-#carousel-container {
-  display: block;
+#carouselExampleSlidesOnly {
+  align-items: flex-end;
 }
 
 .carousel-height{
