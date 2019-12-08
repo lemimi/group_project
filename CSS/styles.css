@@ -1,4 +1,4 @@
-img{
+#main{
   display: flex;
   margin:0 auto;
   padding:20x;
@@ -16,9 +16,16 @@ h1{
   font-size: 5em;
 }
 h5{
-  text-align:left;
+  text-align: left;
   font-style: oblique;
 }
+div.intro {
+  text-align: left;
+}
+div.carousel-container {
+  display: inline-block;
+}
+
 .carousel-height{
   height: 10em;
 }
@@ -50,6 +57,8 @@ li {
     margin: 0 20px 0 0;
     transition: 0.6s ease;
 }
+class="contrast" {
+  style="width: 100;"
 
 div.christmasDay{
   position: relative;
