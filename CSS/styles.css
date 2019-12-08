@@ -21,6 +21,7 @@ h5{
 
 div.padded-h5 {
   padding-left: 13.5%;
+  padding-right: 13.5%;
 }
 class="container" {
   transition: 0.6s ease;
@@ -43,4 +44,19 @@ div.contrast{
 li {
     margin: 0 20px 0 0;
     transition: 0.6s ease;
+}
+
+div.christmasDay{
+  position: relative;
+}
+img.christmasHat{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: -12px;
+    left: -15px;
+}
+
+.decemberCalendar td{
+  cursor: pointer;
 }
