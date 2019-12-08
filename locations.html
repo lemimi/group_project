@@ -17,26 +17,27 @@ href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min
 </head>
 <body>
 <br></br>
+<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="#">GlasGO</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-
-    <ul class="nav justify-content-center">
-      <li class="nav-item">
-        <a class="nav-link active" href="index.html">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#">Locations</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link active" href="#">Events</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link active" href="#">History</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link active" href="#">Buildings</a>
-      </li>
-    </ul>
-    <br>
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="locations.html">Locations</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="events.html">Events</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+<br></br>
     <h2> Locations </h2>
     <br></br>
 
@@ -69,7 +70,7 @@ href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min
   <div class="row">
       <div class="col-sm">
         <div class="card fade" style="width: 21rem;">
-          <img class="card-img-top" src="Secc.jpg" style="width:335px;height:200px" alt="Sec">
+          <img id="main" class="card-img-top" src="Secc.jpg" style="width:335px;height:200px" alt="Sec">
           <div class="card-body">
             <h5 class="card-title">The SEC</h5>
             <p class="card-text">The SEC Centreis Scotland's largest exhibition centre, located in the district of Finnieston on the north bank of the River Clyde, Glasgow. It is one of the three main venues within the Scottish Event Campus.</p>
