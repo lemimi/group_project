@@ -2,7 +2,11 @@ img{
   display: flex;
   margin:0 auto;
   padding:20x;
-  border-radius: 130px;
+}
+
+body {
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 h1, h2 {
@@ -40,6 +44,7 @@ div.contrast{
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-top: 0;
 }
 li {
     margin: 0 20px 0 0;
@@ -59,4 +64,8 @@ img.christmasHat{
 
 .decemberCalendar td{
   cursor: pointer;
+}
+
+.mainContent{
+  margin-top: 50px;
 }
