@@ -22,8 +22,11 @@ h5{
 div.intro {
   text-align: left;
 }
-#carouselExampleSlidesOnly {
+div.carousel-item.active {
   align-items: flex-end;
+}
+  ::after, ::before {
+    box-sizing: border-box;
 }
 
 .carousel-height{
@@ -52,6 +55,7 @@ div.contrast{
   align-items: center;
   flex-direction: column;
   margin-top: 0;
+  width: 1700;
 }
 li {
     margin: 0 20px 0 0;
@@ -59,8 +63,9 @@ li {
 }
 class="contrast" {
   style="width: 100;"
+}
 
-div.christmasDay{
+div.christmasDay {
   position: relative;
 }
 img.christmasHat{
