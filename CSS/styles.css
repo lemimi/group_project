@@ -1,12 +1,14 @@
+
 #main{
   display: flex;
   margin:0 auto;
   padding:20x;
 }
-
 #index {
-  max-width: 800px;
+  width: 100%;
+  max-width: 1000px;
   margin: 0 auto;
+  overflow-x: hidden;
 }
 
 h1, h2 {
@@ -54,15 +56,18 @@ div.contrast{
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-top: 0;
-  width: 1700;
+
+  margin-top: 20px;
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right:50%;
+  margin-left:-50vw;
+  margin-right:-50vw;
 }
 li {
     margin: 0 20px 0 0;
     transition: 0.6s ease;
-}
-class="contrast" {
-  style="width: 100;"
 }
 
 div.christmasDay {
@@ -81,5 +86,53 @@ img.christmasHat{
 }
 
 .mainContent{
-  margin-top: 50px;
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.decemberCalendar td:hover {
+    background: lightblue;
+
+  }
+.glasgoLogo{
+  margin-bottom: 20px;
+}
+
+.neighbourhood{
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+
+.card{
+  transition: 0.6s ease;
+  margin:20px;
+
+}
+.card:hover{
+  transform: scale(1.1);
+}
+
+.card-text{
+  padding:20px;
+}
+
+.img-fluid{
+  height:200px;
+  object-fit:cover;
+}
+
+.card-columns{
+  display:flex;
+  flex-wrap: nowrap;
+}
+
+.carousel-inner{
+  max-height: 450px;
+  width:100vw;
+  object-fit: cover;
 }
