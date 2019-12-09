@@ -17,6 +17,9 @@ h1, h2 {
 h1{
   font-size: 5em;
 }
+h2{
+  margin-top: 20px;
+}
 h3 {
   text-align: left;
   font-size: georgia
@@ -137,4 +140,19 @@ img.christmasHat{
   max-height: 450px;
   width:100vw;
   object-fit: cover;
+}
+
+.alignCentre{
+  margin: 0 auto;
+  display: block;
+  margin-top: 20px;
+}
+
+.headerImage{
+margin-top: 20px;
+
+}
+
+.spaceAround{
+  padding: 0px 200px 0px 200px;
 }
